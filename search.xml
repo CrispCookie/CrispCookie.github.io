@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>关于配置可链接Mysql的网页进度02</title>
+      <link href="/2022/03/09/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%8F%AF%E9%93%BE%E6%8E%A5Mysql%E7%9A%84%E7%BD%91%E9%A1%B5%E8%BF%9B%E5%BA%A602/"/>
+      <url>/2022/03/09/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%8F%AF%E9%93%BE%E6%8E%A5Mysql%E7%9A%84%E7%BD%91%E9%A1%B5%E8%BF%9B%E5%BA%A602/</url>
+      
+        <content type="html"><![CDATA[<h4 id="第七步-在eclipse中部署tomcat-22-03-09-17-09"><a href="#第七步-在eclipse中部署tomcat-22-03-09-17-09" class="headerlink" title="第七步:在eclipse中部署tomcat [22-03-09 17:09]"></a>第七步:在eclipse中部署tomcat [22-03-09 17:09]</h4><p>成功破解安装Navicat,配置MySQL完毕,拿外卖后开始部署tomcat</p><h4 id="第八步-在eclipse中编写jsp"><a href="#第八步-在eclipse中编写jsp" class="headerlink" title="第八步:在eclipse中编写jsp"></a>第八步:在eclipse中编写jsp</h4><p>tomcat部署成功,开始了解jsp,</p><p>jsp java server page JAVA服务页面,SUM公司发明的基于JAVA代码的多元化页面,<br>    页面以HTML形式来显示,不仅可以写HTML,CSS,JS 还可以写JAVA代码</p><h4 id="第九步"><a href="#第九步" class="headerlink" title="第九步"></a>第九步</h4><p>暂时全部木大了</p><p>只剩下买服务器这一个快捷方法</p><p>fk localhost:8080,看了好多教程都没法部署到网上</p><p>最后访问的都是本地主机,明天早上看看腾讯云和阿里云有没有服务器可以购买</p><p>本来是一直避开购买服务器的看看有没有其他上云方法</p><p>最后发现</p><p>没有捏~</p><p>fk</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web </tag>
+            
+            <tag> 数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于配置可链接Mysql的网页进度01</title>
+      <link href="/2022/03/08/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%8F%AF%E9%93%BE%E6%8E%A5Mysql%E7%9A%84%E7%BD%91%E9%A1%B5%E8%BF%9B%E5%BA%A601/"/>
+      <url>/2022/03/08/%E5%85%B3%E4%BA%8E%E9%85%8D%E7%BD%AE%E5%8F%AF%E9%93%BE%E6%8E%A5Mysql%E7%9A%84%E7%BD%91%E9%A1%B5%E8%BF%9B%E5%BA%A601/</url>
+      
+        <content type="html"><![CDATA[<h4 id="第一步-配置jdk-22-03-08-16-18"><a href="#第一步-配置jdk-22-03-08-16-18" class="headerlink" title="第一步:配置jdk  [22-03-08 16:18]"></a>第一步:配置jdk  [22-03-08 16:18]</h4><p>发现jdk15.0版本完全不兼容tomcat,于是自降jdk版本(反正高版本确实没啥用) </p><p>小心翼翼的更改java环境变量中</p><h4 id="第二步-安装tomcat-22-03-08-16-55"><a href="#第二步-安装tomcat-22-03-08-16-55" class="headerlink" title="第二步:安装tomcat  [22-03-08 16:55]"></a>第二步:安装tomcat  [22-03-08 16:55]</h4><p>配置环境居然花了我这么多时间…把所有环境变量都删除了java -version还是显示jdk15.0;</p><p>把jdk15.0文件夹都删了才不显示,后面是折磨的配环境变量过程,总之就是,更改新的环境变量</p><p>需要把所有的jdk有关环境变量删除重新添加</p><p>(最后我成功还是因为JAVA突然冒出来一个更新,点了更新完成后才成功配置)</p><p>安装好了,运行startup.bat发现中文乱码,把系统改成UTF-8重启下</p><h4 id="第三步-配置tomcat-22-03-08-17-14"><a href="#第三步-配置tomcat-22-03-08-17-14" class="headerlink" title="第三步:配置tomcat [22-03-08 17:14]"></a>第三步:配置tomcat [22-03-08 17:14]</h4><p>貌似完成了(貌似)</p><h4 id="第四步-部署web项目-22-03-08-18-45"><a href="#第四步-部署web项目-22-03-08-18-45" class="headerlink" title="第四步:部署web项目 [22-03-08 18:45]"></a>第四步:部署web项目 [22-03-08 18:45]</h4><p>[22-03-08 20:22]吃了饭看了把比赛,摸鱼摸过去了</p><p>发现自己的idea和eclipse不支持web没辙只能重新下</p><p>国外的网站下载真的 好   慢   啊,而且我还下错了两次</p><p>现在也是无聊的等待下载时间,继续看V5 VS BLG</p><h4 id="第五步-安装Mysql-22-03-08-22-19"><a href="#第五步-安装Mysql-22-03-08-22-19" class="headerlink" title="第五步:安装Mysql [22-03-08 22:19]"></a>第五步:安装Mysql [22-03-08 22:19]</h4><p>UZI上场了,UZI被秒了~(哭腔)</p><p>fk看比赛,现在在配置Mysql</p><h4 id="第六步-选择可视化数据库软件-22-03-08-23-08"><a href="#第六步-选择可视化数据库软件-22-03-08-23-08" class="headerlink" title="第六步:选择可视化数据库软件[22-03-08 23:08]"></a>第六步:选择可视化数据库软件[22-03-08 23:08]</h4><p>配置Mysql完成了,和sql server完全不一样的体验,接下来选择以下要选择什么可视化数据库软件</p><p>舍友上床了,今天告一段落,晚安</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Web </tag>
+            
+            <tag> 数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇博客,但这只是个测试</title>
+      <link href="/2022/03/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2022/03/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>摸一会鱼</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摸鱼 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 摸鱼 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇博客</title>
+      <link href="/2022/03/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2022/03/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>请多多指教</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
